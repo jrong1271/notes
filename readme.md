@@ -3,7 +3,7 @@
 2/15/2025, 10:26:15 PM 
 
 - ### Docker
-  - provide an isolated run environment (container) to run app, in bundle dependencies and config, unlike vm, docker container only include necessary libraries, setting and software required to run the apps
+  - provide an isolated environment (container) to run app, it bundles necessary dependencies and config, unlike vm, docker container only include libraries, setting and software required to run the apps
     - docker client->server (docker-cli->deamon)
     - docker server=>engine->jobs(1,2,3,4)->runC & container
   - #### Components
